@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(29, 28, 27);
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  position: fixed;
+  bottom: 1rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+
+}
+
+button{
+  font-size: large;
+  padding: 1rem 2rem;
+  border-radius: 9px;
+  color: #fff;
+  outline: none;
+  border: none;
+  box-shadow: 1px 2px 1px 2px #333232;
+  cursor: pointer;
+}
